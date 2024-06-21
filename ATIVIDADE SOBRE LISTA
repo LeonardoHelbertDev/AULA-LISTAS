@@ -1,0 +1,14 @@
+n = int(input("Digite um numero : "))
+
+lista: int = [0,1,2,3,4,5,6,7,8,9]
+
+if n in range(len(lista)):
+    print("Voce acertou")
+else:
+    print("Voce Errou") 
+
+print("Esses são os numeros")
+for i in range(len(lista)):
+    print(i)
+
+
