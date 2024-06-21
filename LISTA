@@ -1,0 +1,31 @@
+'''
+Coleção é um tipo de dado que permite armazenar um conjunto de valores.
+
+----------------TIPOS---------------------------
+
+LISTA = Lista é um tipo de coleção que permite inserir valor, para definir uma lista colocamos colchetes  []
+'''
+
+  #EXEMPLO
+x: int = [15,25,35,45,55,65] # O INDICE COMEÇA DO 0
+#ACESSO PELO INDICE
+print(x[0:6]) #  PRA PERCORRER TODA LISTA
+print(x[0:5]) # ':' SIGNIFICA INTERVALO ENTRE OS INDICES
+print(x[:4]) # DO PRIMEIRO AO 4
+
+'''
+ PRA SABER QUANTOS ELEMENTOS TEM NA LISTA
+'''
+
+  #EXEMPLO
+print(len(x))
+
+'''
+DESCOBRIR SE EXISTE UM ELEMENTO NA LISTA
+'''
+
+   #EXEMPLO
+for i in x: # "FOR: para percorrer" , "IN: significa na" , "X na variavel"
+   print(i)
+
+   
